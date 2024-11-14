@@ -1,23 +1,22 @@
 using System;
 
-namespace SumMethodApp
+namespace CCXVI 
 {
-    class Program
+ class Program
+ {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            // Test the AddNumbers method
-            int num1 = 5;
-            int num2 = 3;
-            int result = AddNumbers(num1, num2);
+      int x = 13;
+      int y = 94;
 
-            Console.WriteLine("The sum of " + num1 + " and " + num2 + " is: " + result);
-        }
+      int sum = addNumbers(x, y);
 
-        // Method that takes two integers and returns their sum
-        static int AddNumbers(int a, int b)
-        {
-            return a + b;
-        }
+        Console.WriteLine("The sum of " + x + " and " + y + " is: " + sum);
     }
+
+    static int addNumbers(int x, int y)
+    {
+        return x + y;
+    }
+ }
 }
