@@ -1,0 +1,30 @@
+/workspaces/c-/module/Tasks/3-VariableAssignment/SumMethodApp/bin/Debug/net8.0/SumMethodApp
+/workspaces/c-/module/Tasks/3-VariableAssignment/SumMethodApp/bin/Debug/net8.0/SumMethodApp.deps.json
+/workspaces/c-/module/Tasks/3-VariableAssignment/SumMethodApp/bin/Debug/net8.0/SumMethodApp.runtimeconfig.json
+/workspaces/c-/module/Tasks/3-VariableAssignment/SumMethodApp/bin/Debug/net8.0/SumMethodApp.dll
+/workspaces/c-/module/Tasks/3-VariableAssignment/SumMethodApp/bin/Debug/net8.0/SumMethodApp.pdb
+/workspaces/c-/module/Tasks/3-VariableAssignment/SumMethodApp/obj/Debug/net8.0/SumMethodApp.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/c-/module/Tasks/3-VariableAssignment/SumMethodApp/obj/Debug/net8.0/SumMethodApp.AssemblyInfoInputs.cache
+/workspaces/c-/module/Tasks/3-VariableAssignment/SumMethodApp/obj/Debug/net8.0/SumMethodApp.AssemblyInfo.cs
+/workspaces/c-/module/Tasks/3-VariableAssignment/SumMethodApp/obj/Debug/net8.0/SumMethodApp.csproj.CoreCompileInputs.cache
+/workspaces/c-/module/Tasks/3-VariableAssignment/SumMethodApp/obj/Debug/net8.0/SumMethodApp.sourcelink.json
+/workspaces/c-/module/Tasks/3-VariableAssignment/SumMethodApp/obj/Debug/net8.0/SumMethodApp.dll
+/workspaces/c-/module/Tasks/3-VariableAssignment/SumMethodApp/obj/Debug/net8.0/refint/SumMethodApp.dll
+/workspaces/c-/module/Tasks/3-VariableAssignment/SumMethodApp/obj/Debug/net8.0/SumMethodApp.pdb
+/workspaces/c-/module/Tasks/3-VariableAssignment/SumMethodApp/obj/Debug/net8.0/SumMethodApp.genruntimeconfig.cache
+/workspaces/c-/module/Tasks/3-VariableAssignment/SumMethodApp/obj/Debug/net8.0/ref/SumMethodApp.dll
+/workspaces/c-/module/Tasks/Program runner/SumMethodApp/bin/Debug/net8.0/SumMethodApp
+/workspaces/c-/module/Tasks/Program runner/SumMethodApp/bin/Debug/net8.0/SumMethodApp.deps.json
+/workspaces/c-/module/Tasks/Program runner/SumMethodApp/bin/Debug/net8.0/SumMethodApp.runtimeconfig.json
+/workspaces/c-/module/Tasks/Program runner/SumMethodApp/bin/Debug/net8.0/SumMethodApp.dll
+/workspaces/c-/module/Tasks/Program runner/SumMethodApp/bin/Debug/net8.0/SumMethodApp.pdb
+/workspaces/c-/module/Tasks/Program runner/SumMethodApp/obj/Debug/net8.0/SumMethodApp.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/c-/module/Tasks/Program runner/SumMethodApp/obj/Debug/net8.0/SumMethodApp.AssemblyInfoInputs.cache
+/workspaces/c-/module/Tasks/Program runner/SumMethodApp/obj/Debug/net8.0/SumMethodApp.AssemblyInfo.cs
+/workspaces/c-/module/Tasks/Program runner/SumMethodApp/obj/Debug/net8.0/SumMethodApp.csproj.CoreCompileInputs.cache
+/workspaces/c-/module/Tasks/Program runner/SumMethodApp/obj/Debug/net8.0/SumMethodApp.sourcelink.json
+/workspaces/c-/module/Tasks/Program runner/SumMethodApp/obj/Debug/net8.0/SumMethodApp.dll
+/workspaces/c-/module/Tasks/Program runner/SumMethodApp/obj/Debug/net8.0/refint/SumMethodApp.dll
+/workspaces/c-/module/Tasks/Program runner/SumMethodApp/obj/Debug/net8.0/SumMethodApp.pdb
+/workspaces/c-/module/Tasks/Program runner/SumMethodApp/obj/Debug/net8.0/SumMethodApp.genruntimeconfig.cache
+/workspaces/c-/module/Tasks/Program runner/SumMethodApp/obj/Debug/net8.0/ref/SumMethodApp.dll
