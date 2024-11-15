@@ -2,29 +2,18 @@ using System;
 
 class Program
 {
-    // Declare x and y as global variables
-    int x = 7;
-    int y = 3;
-
-    public int AddTwoNumbers()
+    static void Main(string[] args) 
     {
-        return x + y; 
-    }
+        int x = 5;
+        int y = 5;
 
-    public void PrintMessage()
-    {
-        Console.WriteLine("This method returns nothing.");
-    }
-
-    static void Main(string[] args)
-    {
-        Program program = new Program();
-
-        
-        int result = program.AddTwoNumbers();
-        Console.WriteLine("The sum of x and y is: " + result);
-
-        
-        program.PrintMessage();
+        if (x == y) 
+        {
+            Console.WriteLine("True");
+        }
+        else
+        {
+            Console.WriteLine("False");
+        }
     }
 }

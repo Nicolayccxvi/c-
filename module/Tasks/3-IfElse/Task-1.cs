@@ -1,12 +1,19 @@
 using System;
 
-//Lag en metode som tar imot to tall og returnerer true dersom tallene er like.
-
-static void main(string[]args)
+class Program
 {
-    int x = 5;
-    int y = 99;
+    static void Main(string[] args) 
+    {
+        int x = 5;
+        int y = 5;
 
-    if (x == Y)
-    
+        if (x == y) 
+        {
+            Console.WriteLine("True");
+        }
+        else
+        {
+            Console.WriteLine("False");
+        }
+    }
 }
