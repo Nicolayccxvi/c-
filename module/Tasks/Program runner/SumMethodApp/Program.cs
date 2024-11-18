@@ -7,16 +7,16 @@ class CCXVI
 {
     static void Main(string[] args)
     {
-        int x = 8;
+        int x = 9;
         int y = 9;
 
-        if (x == y)
+        if (x != y)
         {
-            Console.WriteLine(x * y);
+            Console.WriteLine(x + y);
         }
         else
         {
-            Console.WriteLine(x + y);
+            Console.WriteLine(x * y);
         }
     }
 }
