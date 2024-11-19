@@ -47,7 +47,7 @@ class Program
         if (userChoice == "yes")
         {
             Random random = new Random();
-            int DiceRoll = random.Next(1, 10);
+            int DiceRoll = random.Next(1, hobbies.Length + 1);
 
             Console.WriteLine($"\nYou rolled a {DiceRoll}! Magical results await!");
 
