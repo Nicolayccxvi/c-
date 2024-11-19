@@ -16,6 +16,21 @@ class Program
         }
     }
 
-    static
+    static void Main(string[] args)
+    {
+        Console.Readline("Enter first number: ");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+        Console.Readline("Enter second number: ");
+        int num2 = Convert.ToInt32(Console.ReadLine());
+
+        if (checkIf30(num1, num2))
+        {
+            Console.WriteLine("True");
+        }
+        else
+        {
+            Console.WriteLine("False");
+        }
+    }
     
 }
