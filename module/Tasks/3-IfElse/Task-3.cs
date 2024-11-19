@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // color change on text and backround
+        // color change on text 
         Console.ForegroundColor = ConsoleColor.Green;
 
         // welcome

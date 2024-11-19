@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         // color change on text and backround
-        Console.ForegroundColor = ConsoleColor.Green;
+        Console.ForegroundColor = ConsoleColor.Blue;
 
         // welcome
         Console.WriteLine("Welcome to pick a hobby Goblin");
