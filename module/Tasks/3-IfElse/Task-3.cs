@@ -2,35 +2,75 @@ using System;
 
 class Program
 {
-    
-    static bool CheckIf30(int num1, int num2)
-    {
-        if (num1 == 30 || num2 == 30 || num1 + num2 == 30)
-        {
-            return true;
-        }
-        return false;
-    }
-
     static void Main(string[] args)
     {
-        
-        Console.Write("Enter first number: ");
-        int num1 = Convert.ToInt32(Console.ReadLine());  
+        // welcome
+        Console.WriteLine("Welcome to pick a hobby Goblin");
 
-        // Prompt and get user input for num2
-        Console.Write("Enter second number: ");
-        int num2 = Convert.ToInt32(Console.ReadLine());  
 
-        
-        if (CheckIf30(num1, num2))
+        // ask for users name
+        Console.Write("Enter your name Goblin:");
+        string userName = Console.ReadLine();
+
+        // nice greeting
+        Console.WriteLine($"Nice to meet you {userName}!");
+
+
+        // hobbies
+        string[] hobbies = new string[]
         {
-            Console.WriteLine("True");
+              "Coin Collecting",
+            "Finance and Investment",
+            "Esoteric Knowledge Gathering",
+            "Photography",
+            "Gardening",
+            "Cooking",
+            "Painting",
+            "Music Composition",
+            "Traveling",
+            "Reading Books"
+        };
+
+        Console.WriteLine("\nHere are some Hobby Ideas for you:");
+        for (int i = 0; i < hobbies.Length; i++)
+        {
+            Console.WriteLine($"{i + 1}. {hobbies[i]}");    
+        }
+
+        // user choice the magical dice
+        Console.Write("\nDo you want to roll the magical goblin dice? (yes/no): ");
+        string userChoice = Console.ReadLine().ToLower();
+
+        if (userChoice == "yes")
+        {
+            Random random = new Random();
+            int DiceRoll = random.Next(1, 10);
+
+            Console.WriteLine($"\nYou rolled a {DiceRoll}! Magical results await!");
+
+            if (DiceRoll <= hobbies.Length)
+            {
+              Console.WriteLine($"Your magical hobby is: {hobbies[diceRoll - 1]}");  
+            }
+            else
+            {
+                Console.WriteLine("")
+            }
+
+        }
+        else if (userChoice == "no")
+        {
+
         }
         else
         {
-            Console.WriteLine("False");
-        }
-    }
-}
 
+        }
+
+
+
+    }
+
+    
+
+}
