@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
+        // color change on text and backround
+        Console.ForegroundColor = ConsoleColor.Green;
+
         // welcome
         Console.WriteLine("Welcome to pick a hobby Goblin");
 
@@ -34,7 +37,7 @@ class Program
         Console.WriteLine("\nHere are some Hobby Ideas for you:");
         for (int i = 0; i < hobbies.Length; i++)
         {
-            Console.WriteLine($"{i + 1}. {hobbies[i]}");    
+            Console.WriteLine($"{i + 1}. {hobbies[i]}");
         }
 
         // user choice the magical dice
@@ -50,27 +53,31 @@ class Program
 
             if (DiceRoll <= hobbies.Length)
             {
-              Console.WriteLine($"Your magical hobby is: {hobbies[diceRoll - 1]}");  
+                Console.WriteLine($"Your magical hobby is: {hobbies[DiceRoll - 1]}");
             }
             else
             {
-                Console.WriteLine("")
+                Console.WriteLine("Something went wrong with the dice roll!");
             }
 
         }
         else if (userChoice == "no")
         {
-
+            Console.WriteLine("\nYou chose not to roll the dice, fool!");
         }
         else
         {
-
+            Console.WriteLine("\nInvalid input. Please enter 'yes' or 'no'.");
         }
+
+
+
 
 
 
     }
 
-    
+
 
 }
+
