@@ -1,6 +1,10 @@
 using System;
 using System.Threading;
 
+//Lag et program hvor du kan skrive inn en tekst, og når du sender teksten inn vil du få tilbake teksten reversert. Gjør dette uten å bruke innebygde reverse metoder
+//Bygg videre ved å legge til flere ting man kan gjøre med stringen, eksempel:
+//Alternativer for hva man vil gjøre, trykk 1,2 eller 3 for å reversere, konvertere til uppercase eller lowercase
+
 class Program
 {
     static void Main(string[] args)
